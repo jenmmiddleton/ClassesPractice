@@ -58,6 +58,7 @@ public class Circle {
 
         System.out.println("PART A\n" + "X: " + myCircle.getX() + "\nY: " + myCircle.getY() + "\nRadius: " + myCircle.getRadius());
 
+        //This line is from the Lesson
         moveCircle(myCircle, 23, 56);
 
         System.out.println("PART B\n" + "X: " + myCircle.getX() + "\nY: " + myCircle.getY() + "\nRadius: " + myCircle.getRadius());
