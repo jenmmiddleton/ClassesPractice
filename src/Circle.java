@@ -53,17 +53,14 @@ public class Circle {
     }
 
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
         Circle myCircle = new Circle(15, 10, 25);
 
         System.out.println("PART A\n" + "X: " + myCircle.getX() + "\nY: " + myCircle.getY() + "\nRadius: " + myCircle.getRadius());
 
         //This line is from the Lesson
-        moveCircle(myCircle, 23, 56);
+        myCircle.moveCircle(myCircle, 23, 56);
 
         System.out.println("PART B\n" + "X: " + myCircle.getX() + "\nY: " + myCircle.getY() + "\nRadius: " + myCircle.getRadius());
-
-
-        moveCircle(myCircle, 30, 50);
     }
 }
